@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
-  publicPath: "./",
+  publicPath: "my_web_bookshelf",
   productionSourceMap: false,
   devServer: {
     port: 8081
