@@ -31,7 +31,7 @@ jobs:
           zip -q -r ${{github.ref_name}}_${{env.VERSION}}.zip ./dist
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
